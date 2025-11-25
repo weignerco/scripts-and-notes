@@ -8,4 +8,4 @@ sudo yum install -y postgresql
 # connect to a postgresql database
 # replace <db_host>, <db_port>, <db_user>, and <db_name> with actual values
 # default port for postgresql is 5432
-psql -h <db_host> -p <db_port> -U <db_user/db_admin> -d <db_name> # default db_name is postgres
+psql -h <db_host_ip> -p <db_port> -U <db_user/db_admin> -d <db_name> # default db_name is postgres
