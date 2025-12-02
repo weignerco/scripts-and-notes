@@ -11,24 +11,28 @@
 git init <directory> # Creates a new directory name with git initialized
 cd <directory>
 
+
 # Clone an existing repository
 git clone <remote-repo-URL> # Clones the repository from the given URL
+
 
 # Add a new file
 git add <filename> # Stages the file 'filename' for commit
 # Add multiple files
 git add <file1> <file2> <file3> # Stages multiple files
 
+
 # Commit the file
 git commit -m "Initial commit with <filename>" # Commits the staged changes with a message
 
+
 # Push to remote repository (assuming remote is set up)
 git remote add origin <remote-repo-URL> # Add remote repository URL, set this up only once
+git push # Pushes the commits to the remote repository
 git push <filename> # Pushes the commits to the remote repository
-# Push multiple files
-git push <file1> <file2> <file3> # Pushes multiple files
 
 
+###########################################################
 
 # Shows the status of files in the working directory and staging area
 git status 
